@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="spot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <div class="image"><img src="https://th.bing.com/th/id/R.3587f8e9df02e2990b93afb9cd6d2323?rik=pdu4Ha7cd%2ftwrg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fspotify-logo-png-spotify-music-app-icon-1024.jpg&ehk=an3w0ln31JOUxMDxW5d5y1NdJ87FxWd1D0Uid0Kc6xw%3d&risl=&pid=ImgRaw&r=0" alt="Spotify Logo">
+            <li id="spotify">Spotify</li>
+            <li id="home">Home </li>
+            <li id="home">About </li>
+        </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+             <h1>Best of sounds</h1>
+        </div>
+        <div class="songitem">
+            <img src="https://th.bing.com/th/id/OIP.LMXxUVRafl-I-eYMXPFqJQHaGo?w=750&h=671&rs=1&pid=ImgDetMain">
+            <span>Tum Hi Ho</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="0"></i></span></span>
+        </div>
+        <div class="songitem">
+            <img src="https://th.bing.com/th/id/OIP.RdpzGnf-oMZoN74kTlqW1gHaHa?rs=1&pid=ImgDetMain">
+            <span>Tu Hi Mera</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="1"></i></span></span>
+        </div>
+          <div class="songitem">
+            <img src="https://music.dhruvpiano.com/wp-content/uploads/2020/05/tum-se-hi-cover.jpg">
+            <span>Tum Se Hi</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="2"></i></span></span>
+        </div>
+          <div class="songitem">
+            <img src="https://a10.gaanacdn.com/gn_img/albums/P7m3GNKqxo/7m3GvmElKq/size_l.jpg">
+            <span>Ye Tune Kya Kiya</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="3"></i></span></span>
+        </div>
+          <div class="songitem">
+            <img src="https://i.ytimg.com/vi/hHuG7FIKgtc/maxresdefault.jpg">
+            <span>Ishq</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="4"></i></span></span>
+            </div>
+             <div class="songitem">
+            <img src="https://th.bing.com/th/id/OIP.Qj75v4Bd7ZKuz9boDorLZwHaHa?rs=1&pid=ImgDetMain">
+            <span>Jhol</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="5"></i></span></span>
+            </div>
+             <div class="songitem">
+            <img src="https://i.ytimg.com/vi/lbCRtrrMvSw/maxresdefault.jpg">
+            <span>Give Me Some Sunshine</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="6"></i></span></span>
+            </div>
+             <div class="songitem">
+            <img src="https://www.lyricsbogie.com/wp-content/uploads/2020/04/lapata-lyrics.jpg">
+            <span>Laapta</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="7"></i></span></span>
+            </div>
+             <div class="songitem">
+            <img src="https://i.ytimg.com/vi/p9aW105LmEA/maxresdefault.jpg">
+            <span>Dildaara</span> 
+            <span class="songlistplay">  <span>05:34
+              <i class="fa-solid icon fa-circle-play" id="8"></i></span></span>
+            </div>    
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range"name="range"id="progressbar" min="0" value="0" max="100">
+       <div class="icons">
+        <i class="fa-solid fa-backward-step" style="color: #e1e2e5;" id="backward"></i>
+        <i class="fa-solid fa-circle-play" style="color: #e1e2e5;" id="masterplay"></i>
+        <i class="fa-solid fa-forward-step" style="color: #e2e3e4;" id="forward"></i>
+       </div>
+       <div class="songinfo">
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJ5M2J6aWdyMXAybW1zNzExcTF5NWpmZWJ1eWVwOG5hdThldXMyYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBBS5lCGRF5vyoM/giphy.gif"id="gif"><span id="mastersongname"></span>
+       </div>
+    </div>
+<script src="spot.js"></script>
+</body>
+</html>
