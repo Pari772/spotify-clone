@@ -1,0 +1,96 @@
+*{margin:0;
+padding:0;}
+.image img{
+width:50px;
+height:50px;
+}
+#spotify{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left:2px;
+    
+}
+.image{
+    display:flex;
+list-style-type:none;
+height:80px;
+background-color: black;
+color:white;
+align-items: center;
+}
+#home{
+    color:grey;
+    margin-left:20px;
+}
+.container{
+    height:75vh;
+    background-color: black;
+    color:white;
+width:70%;
+margin:23px auto;
+background-image: url('https://wallpapercave.com/wp/wp2326999.jpg');
+background-size:cover;
+}
+.bottom{
+    position:sticky;
+    height:150px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+
+}
+#progressbar{
+    width:800px;
+    cursor:pointer;
+}
+.icons{
+    height:200px;
+    width:100px;
+    margin-top:30px;
+}
+#backward{
+    font-size:30px;
+}
+#forward{
+    font-size:30px;
+}
+#masterplay{
+    font-size:30px;
+}
+body{
+    background-color:beige;
+}
+.songitem{
+    height:50px;
+    display:flex;
+    background-color:black;
+    color:white;
+    width:55%;
+    border-radius:10px;
+    margin-top:10px;
+}
+.songitem img{
+    height:50px;
+    width:50px;
+}
+.songlistplay{
+    margin-left:5px;
+}
+#icon{
+    cursor:pointer;
+}
+#gif{
+    height:60px;
+    width:100px;
+    opacity:0;
+    transition: opacity 0.6s ease-in;
+}
+.songinfo{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
